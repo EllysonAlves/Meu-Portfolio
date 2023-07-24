@@ -985,7 +985,7 @@ ul.social-buttons li:last-child {
 	
 }
 .contact {
-	margin-top:-20px!important;
+	margin-top: 20px;
 }
 .contact label {
 	float:left;

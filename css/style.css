@@ -1198,7 +1198,7 @@ ul.slides li {
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
 	.inner {
-    padding-top: 10px;
+    padding-top: 100px;
     text-align: center;
 	}
 

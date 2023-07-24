@@ -453,7 +453,7 @@ table {
 }
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/header-bg2.png') right center no-repeat;
+	background: url('../img/teste.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
@@ -546,7 +546,7 @@ table {
 	border-bottom: none;
 }
 .scrollto p{
-	color: #353535;
+	color: #E04343;
 }
 .scrollto--arrow {
 	padding:10px;
@@ -982,8 +982,7 @@ ul.social-buttons li:last-child {
 #googlemaps {
 	width:100%;
 	height:300px;
-	left:15px;
-	bottom:25px;
+	
 }
 .contact {
 	margin-top:-20px!important;
@@ -1117,17 +1116,20 @@ ul.slides li {
 }
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
-@media screen and (max-width:414px) {
+@media screen and (max-width:500px) {
 	.scrollto {
 		padding: 95px 0px 0px 0px;
 	}
 
 	.hero h1 {
-		text-align: left;
-		font-size: 70px;
+		text-align: center;
+		font-size: 60px;
 		line-height: 80px;
-		margin-top: 65px;
+		
 }
+	.hero {
+		
+	}
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
@@ -1207,6 +1209,9 @@ ul.slides li {
 
 	.hero {
 	    padding-bottom: 0;
+	}
+	.hero h1{
+		font-size: 80px;
 	}
 
 	.subscribe input[type=text] {

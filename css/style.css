@@ -76,10 +76,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 }
 audio,canvas,video {
 	display:inline-block;
-	*display:inline;
-	*zoom: 1;
+	display:inline;
+	zoom: 1;
 }
-* Remove excess height in iOS 5 devices. */
+/* Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
 	display:none;
 	height:0;
@@ -234,13 +234,13 @@ legend {
 	border:0;
 	padding:0;
 	white-space:normal;
-	*margin-left:-7px;
+	margin-left:-7px;
 }
 button,input,select,textarea {
 	font-size:100%;
-	/margin:0;
+	margin:0;
 	vertical-align:baseline;
-	*vertical-align:middle;
+	vertical-align:middle;
 }
 button,input {
 	line-height:normal;
@@ -248,7 +248,7 @@ button,input {
 button,html input[type="button"],input[type="reset"],input[type="submit"] {
 	-webkit-appearance:button;
 	cursor:pointer;
-	*overflow:visible;
+	overflow:visible;
 }
 button[disabled],input[disabled] {
 	cursor:default;
@@ -256,8 +256,8 @@ button[disabled],input[disabled] {
 input[type="checkbox"],input[type="radio"] {
 	box-sizing:border-box;
 	padding:0;
-	*height: 13px;
-	*width: 13px;
+	height: 13px;
+	width: 13px;
 }
 input[type="search"] {
 	-webkit-appearance:textfield;
@@ -451,12 +451,13 @@ table {
 	-webkit-transition-delay:0.5s;
 	transition-delay: 0.5s;
 }
+
 /* ==========================================================================Hero========================================================================== */
 .hero {
-	background: url('../img/teste.jpg') right bottom no-repeat;
+	background: url('../img/teste8.png') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
-	height:auto;
+	height:100vh;
 	background-color: #FBFBFB;
 }
 .hero h1 {
@@ -537,7 +538,6 @@ table {
 	}
 }
 .scrollto {
-	padding: 150px 0px 0px 0px;
 	display:block;
 	color:#353535;
 	text-decoration:none;
@@ -1101,9 +1101,41 @@ ul.slides li {
 .bounceInLeft,.bounceInRight,.fadeInUp,.fadeInUpDelay,.fadeInDown,.fadeInUpD,.fadeInLeft,.fadeInRight {
 	visibility:visible;
 }
+.delay-01s {
+	animation-delay:0.1s;
+	-webkit-animation-delay:0.1s;
+}
+.delay-02s {
+	animation-delay:0.2s;
+	-webkit-animation-delay:0.2s;
+}
+.delay-03s {
+	animation-delay:0.3s;
+	-webkit-animation-delay:0.3s;
+}
+.delay-04s {
+	animation-delay:0.4s;
+	-webkit-animation-delay:0.4s;
+}
 .delay-05s {
 	animation-delay:0.5s;
 	-webkit-animation-delay:0.5s;
+}
+.delay-06s {
+	animation-delay:0.6s;
+	-webkit-animation-delay:0.6s;
+}
+.delay-07s {
+	animation-delay:0.7s;
+	-webkit-animation-delay:0.7s;
+}
+.delay-08s {
+	animation-delay:0.8s;
+	-webkit-animation-delay:0.8s;
+}
+.delay-09s {
+	animation-delay:0.9s;
+	-webkit-animation-delay:0.9s;
 }
 .delay-1s {
 	animation-delay:1s;
@@ -1128,7 +1160,8 @@ ul.slides li {
 		
 }
 	.hero {
-		
+		background: url('../img/teste8.png') bottom no-repeat;
+		background-size: 65%;
 	}
 }
 /* 480px (WVGA - Low End Windows Phone) */
